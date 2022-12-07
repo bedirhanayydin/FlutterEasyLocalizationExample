@@ -1,0 +1,8 @@
+{
+    "app": {
+             "welcome": "RUSÇA WELCOME :)" 
+     },
+     "dropdown_items":{
+        "select_language":"Выберите язык"
+    }
+}
