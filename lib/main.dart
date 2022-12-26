@@ -13,12 +13,10 @@ Future<void> startApp() async {
   LanguageManager languageManager = LanguageManager();
   runApp(
     EasyLocalization(
-      // DevicePreview for see responsive design in multi-screens
       supportedLocales: languageManager.supportedLocales,
       path: 'assets/lang',
       fallbackLocale: FactoryOfMyLocale.create(MyLanguage.en),
       startLocale: FactoryOfMyLocale.create(langMap['en']),
-      // DevicePreview for see responsive design in multi-screens
       child: const AppView(),
     ),
   );
